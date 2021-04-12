@@ -1,0 +1,51 @@
+body{
+    width: 1000px;
+    height: 1000px;
+}
+@media (min-width:1024px){
+    div{
+        width: 33%;
+        height: 33%;
+    }
+    .square1{
+        background-color: red;
+    }
+    .square2{
+        background-color: green;
+    }
+    .square3{
+        background-color: orange;
+    }
+}
+@media (min-width: 600px) and (max-width:1023px){
+    div{
+        width: 50%;
+        height: 50%;
+    }
+    .square1{
+        background-color: red;
+    }
+    .square2{
+        background-color: green;
+    }
+    .square3{
+        background-color: orange;
+    }
+
+}
+@media (min-width: 320px) and (max-width:599px){
+    div{
+        width: 100%;
+        height: 100%;
+    }
+    .square1{
+        background-color: red;
+    }
+    .square2{
+        background-color: green;
+    }
+    .square3{
+        background-color: orange;
+    }
+
+}
